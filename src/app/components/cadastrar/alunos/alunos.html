@@ -1,0 +1,86 @@
+<h1 class="my-3 text-black">Cadastrar Aluno</h1>
+<div class="card shadow">
+    <form class="m-3">
+
+        <!--row nome-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" class="form-control" placeholder="Informe o Nome Completo do Aluno"
+                        name="nomeAluno" [(ngModel)]="nome">
+                </div>
+            </div>
+        </div>
+
+        <!--row idade-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="idade">Idade:</label>
+                    <input type="number" class="form-control" placeholder="18" name="idadeAluno" [(ngModel)]="idade">
+                </div>
+            </div>
+        </div>
+
+        <!--row curso-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="curso">Curso:</label>
+                    <input type="text" class="form-control" placeholder="Informe o Curso do Aluno" name="cursoAluno"
+                        [(ngModel)]="curso">
+                </div>
+            </div>
+        </div>
+
+        <!--row email-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" class="form-control" placeholder="Informe o E-mail do Aluno" name="emailAluno"
+                        [(ngModel)]="email">
+                </div>
+            </div>
+        </div>
+
+        <!--row cidade-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" class="form-control" placeholder="Informe a Cidade do Aluno" name="cidadeAluno"
+                        [(ngModel)]="cidade">
+                </div>
+            </div>
+        </div>
+
+        <!--row botões-->
+        <div class="row">
+            <div class="col">
+
+                <!--botão voltar-->
+                <button class="btn btn-default" routerLink="/">
+                    Voltar
+                </button>
+
+                <!--botão salvar-->
+                <button class="btn btn-success float-end">
+                    Salvar
+                </button>
+
+            </div>
+        </div>
+
+    </form>
+</div>
+
+<h1 class="my-3 text-black">Dados do Aluno</h1>
+<div class="card mt-3">
+    <p>Nome: {{nome}}</p>
+    <p>Idade: {{idade}}</p>
+    <p>Curso: {{curso}}</p>
+    <p>E-mail: {{email}}</p>
+    <p>Cidade: {{cidade}}</p>
+</div>

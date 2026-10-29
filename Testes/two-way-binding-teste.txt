@@ -1,0 +1,14 @@
+1-Altere o nome do aluno no formulário. O parágrafo é atualizado automaticamente?
+R: Sim.
+
+2-Altere a idade e a cidade. Os novos valores aparecem na seção Dados do Aluno?
+R: Sim.
+
+3-Modifique o valor da variável nome diretamente no TypeScript. O campo HTML apresenta o novo valor após a atualização?
+R: Sim.
+
+4-Apague o conteúdo do campo Curso. O que acontece com a variável e com o texto apresentado?
+R: Eles ficam vazios.
+
+5-Explique a diferença observada entre [value] e [(ngModel)].
+R: O [value] realiza uma vinculação unidirecional, o que significa que ele apenas envia o valor do componente TypeScript para a tela, se o usuário digitar algo no campo, a variável interna não é atualizada automaticamente. Já o [(ngModel)] implementa a vinculação bidirecional, sincronizando o dado em tempo real nas duas direções, qualquer alteração no componente reflete na tela, e qualquer digitação do usuário atualiza instantaneamente a variável no TypeScript.

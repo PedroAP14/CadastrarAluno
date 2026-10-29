@@ -1,0 +1,14 @@
+1-Execute a aplicação. Os campos apresentam os valores definidos no TypeScript?
+R: Sim.
+
+2-Altere o nome de Maria Silva para João Oliveira diretamente no campo HTML. O nome exibido no parágrafo também foi alterado?
+R: Não.
+
+3-Altere a idade de 18 para 20 no formulário. A variável idade foi atualizada?
+R: Não.
+
+4-Modifique o valor da variável curso diretamente no TypeScript e observe o resultado após a atualização da aplicação.
+R: O nome exibido no parágrafo foi alterado, logo, sua variável foi alterada.
+
+5-Explique por que as alterações digitadas nos campos não atualizam automaticamente as variáveis.
+R: Porque utiliza o [value], implementando um fluxo unidirecional, o dado flui apenas em um sentido do componente TypeScript para a tela HTML, o campo de texto apenas recebe o valor inicial e reflete visualmente o que está na variável, mas o HTML não tem permissão para enviar as modificações de volta para o TypeScript.
